@@ -6,8 +6,8 @@ const Login =() =>{
     const[password,setPassword]=useState("")
     const submitForm=(e) =>{
         e.preventDefault();
-        const actual_username="Atharv"
-        const actual_password="atharv"
+        const actual_username="a"
+        const actual_password="a"
         console.log("infnc")
         if(actual_password===password && actual_username===username)
            {
